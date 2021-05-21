@@ -1,0 +1,4 @@
+{
+    "crystal-lang.server": "/nix/store/qx2r94zmq9g4w7kj9lc65vw7yslzxbqc-scry-0.9.1/bin/scry",
+    "crystal-lang.compiler": "/nix/store/li0ncij2nn2zafayll2vhs947jsg8dna-crystal-1.0.0/bin/crystal"
+}

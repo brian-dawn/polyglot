@@ -4,6 +4,9 @@ mkShell {
   buildInputs = [
     crystal
     scry
+    shards
+    openssl
+    pkg-config
   ];
 
   shellHook = ''
