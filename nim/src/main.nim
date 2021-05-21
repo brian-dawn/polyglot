@@ -1,12 +1,10 @@
+import htmlgen
+import jester
+import json
 
-proc hello() =
+routes:
+    get "/":
+        resp h1("Hello world")
 
-    echo "what"
-
-proc greaterThan32(x: int): bool = x > 32
-
-
-
-hello()
-
-echo greaterThan32(3)
+    get "/json-example":
+        resp json.parseJson("34")
